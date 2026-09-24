@@ -81,7 +81,7 @@ export default function SobreMiPage() {
 
             <div className="space-y-5 text-[15px] text-warm-gray leading-relaxed">
               <p>
-                Con 56 años y una vida entera enamorada de la moda, decidí hacer realidad el sueño que llevaba años
+                Con una vida entera enamorada de la moda, decidí hacer realidad el sueño que llevaba años
                 guardando: abrir mi propio espacio donde cada mujer pudiera encontrar prendas tan especiales como ella.
                 Así nació <span className="text-charcoal font-medium">Momo Madroña</span>.
               </p>
