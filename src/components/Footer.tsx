@@ -33,11 +33,11 @@ export default function Footer() {
                 @momomadrona
               </a>
               <a
-                href="tel:656351406"
+                href="tel:656951406"
                 className="flex items-center gap-2 text-sm hover:text-gold transition-colors duration-200"
               >
                 <Phone size={15} strokeWidth={1.5} />
-                656 351 406
+                656 95 14 06
               </a>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function Footer() {
             <nav className="flex flex-col gap-3">
               {[
                 { label: 'Sobre Mí', href: '/sobre-mi' },
-                { label: 'Contacto', href: 'tel:656351406' },
+                { label: 'Contacto', href: 'tel:656951406' },
                 { label: 'Instagram', href: 'https://www.instagram.com/momomadrona/' },
               ].map((item) => (
                 <a key={item.label} href={item.href} className="text-sm hover:text-off-white transition-colors duration-200">

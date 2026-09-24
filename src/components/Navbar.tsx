@@ -52,8 +52,8 @@ export default function Navbar() {
             {/* Center logo */}
             <Link href="/" className="absolute left-1/2 -translate-x-1/2">
               <div
-                className={`relative w-24 h-14 transition-all duration-500 ${
-                  scrolled ? '' : 'bg-white/90 backdrop-blur-sm rounded-sm px-2 py-1 shadow-sm'
+                className={`relative w-36 h-[72px] transition-all duration-500 ${
+                  !scrolled ? 'bg-white/95' : 'bg-off-white'
                 }`}
               >
                 <Image
@@ -62,7 +62,7 @@ export default function Navbar() {
                   fill
                   className="object-contain"
                   priority
-                  sizes="96px"
+                  sizes="144px"
                 />
               </div>
             </Link>

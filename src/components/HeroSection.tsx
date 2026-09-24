@@ -36,7 +36,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-off-white/70 text-xs font-sans tracking-[0.3em] uppercase mb-4"
           >
-            Nueva Colección — Otoño 2025
+            Boutique de Moda · C. Regina 16, Sevilla
           </motion.p>
 
           <motion.h1
@@ -56,7 +56,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="text-off-white/80 text-base font-light leading-relaxed mb-10 max-w-sm"
           >
-            Piezas cuidadosamente seleccionadas que celebran la femineidad contemporánea.
+            <span className="font-medium text-off-white">Momo Madroña</span> — moda, complementos artesanales y mucho encanto en el corazón de Sevilla.
           </motion.p>
 
           <motion.div

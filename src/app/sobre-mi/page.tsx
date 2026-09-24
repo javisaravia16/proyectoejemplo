@@ -55,10 +55,10 @@ export default function SobreMiPage() {
           >
             <div className="relative aspect-[4/5] bg-beige rounded-sm overflow-hidden">
               <Image
-                src="/images/logo.jpg"
-                alt="Mariola, fundadora de Momo Madroña"
+                src="/images/tienda.jpg"
+                alt="Tienda Momo Madroña, C. Regina 16, Sevilla"
                 fill
-                className="object-contain p-10"
+                className="object-cover object-center"
               />
             </div>
             {/* Decorative frame */}
