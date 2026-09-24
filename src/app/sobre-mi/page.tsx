@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { Instagram, Phone, Heart } from 'lucide-react'
+import { Instagram, Phone, Heart, MapPin } from 'lucide-react'
 
 const values = [
   {
@@ -109,18 +109,22 @@ export default function SobreMiPage() {
                 href="https://www.instagram.com/momomadrona/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-sm text-charcoal/70 hover:text-charcoal transition-colors group"
+                className="flex items-center gap-3 text-sm text-charcoal/70 hover:text-charcoal transition-colors"
               >
                 <Instagram size={16} strokeWidth={1.5} className="text-gold" />
                 @momomadrona
               </a>
               <a
-                href="tel:656351406"
+                href="tel:656951406"
                 className="flex items-center gap-3 text-sm text-charcoal/70 hover:text-charcoal transition-colors"
               >
                 <Phone size={16} strokeWidth={1.5} className="text-gold" />
-                656 351 406
+                656 95 14 06
               </a>
+              <div className="flex items-start gap-3 text-sm text-charcoal/70">
+                <MapPin size={16} strokeWidth={1.5} className="text-gold shrink-0 mt-0.5" />
+                <span>C. Regina, 16, Casco Antiguo<br />41003 Sevilla</span>
+              </div>
             </div>
           </motion.div>
         </div>

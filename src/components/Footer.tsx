@@ -81,12 +81,13 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-off-white/10 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs tracking-wide">
-            © {new Date().getFullYear()} Momo Madroña. Todos los derechos reservados.
+        {/* Address bar */}
+        <div className="border-t border-off-white/10 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-xs tracking-wide text-off-white/50">
+            C. Regina, 16, Casco Antiguo, 41003 Sevilla — ⭐ 5,0 en Google
           </p>
-          <p className="text-xs text-off-white/40">
-            Diseñado con amor en España
+          <p className="text-xs text-off-white/30">
+            © {new Date().getFullYear()} Momo Madroña
           </p>
         </div>
       </div>
